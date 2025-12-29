@@ -8,7 +8,7 @@
 }
 
 :root {
-    --Color: #EE7A3F;
+    --Color: #c44f15;
 }
 
 body {
@@ -74,9 +74,43 @@ body {
 
 /* Navigation */
 nav {
-    position: sticky;
-    top: 0;
+    position: relative;
+    width: 100%;
     z-index: 1000;
+    background-color: white;
+}
+
+.sticky-active {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: slideDown 0.5s ease forwards;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* @keyframes slideUp {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-100%);
+    }
+} */
+
+.sticky-active .nav-links {
+    padding: 10px 40px;
 }
 
 .nav-container {
@@ -125,7 +159,7 @@ nav .nav-links {
     align-items: center;
     justify-content: center;
     gap: 40px;
-    background-color: #EE7A3F;
+    background-color: var(--Color);
     padding: 15px 40px;
     margin: 0;
 }
@@ -154,7 +188,7 @@ nav .nav-links li a i {
 }
 
 .contributor-section {
-    background-color: #EE7A3F;
+    background-color: var(--Color);
     padding: 15px 40px;
     text-align: center;
 }
@@ -177,16 +211,59 @@ nav .nav-links li a i {
     font-size: 16px;
 }
 
-nav .nav-title h2 {
+.nav-title h2 {
     /* margin-left: 20px; */
     display: flex;
     justify-content: center;
     padding-block: 40px;
-    background-color: #EE7A3F;
+    background-color: var(--Color);
     color: #FFFFFF;
     margin-top: 1px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
+}
+
+/* Body */
+.body-content {
+    padding-block: 70px;
+    padding-inline: 40px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+    /* border-bottom: #D9D9D9 solid 1px; */
+}
+
+.body-content .par p {
+    margin-bottom: 20px;
+}
+
+.body-content .tit h2 {
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: center;
+    padding-block: 50px;
+    /* background-color: #EE7A3F; */
+    color: #3B444F;
+    /* margin-top: 1px; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.body-content .card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.body-content .card-item {
+    width: 30%;
+    text-align: center;
+}
+
+.body-content .card-item img {
+    width: 100%;
+    height: auto;
 }
 
 /* Responsive Design */

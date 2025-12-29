@@ -6,11 +6,19 @@ hamburger.addEventListener('click', function () {
     navLinks.classList.toggle('active');
 });
 
-// Close menu when clicking on a link
 const navItems = document.querySelectorAll('.nav-links li a');
 navItems.forEach(item => {
     item.addEventListener('click', () => {
         hamburger.classList.remove('active');
         navLinks.classList.remove('active');
     });
+});
+
+window.addEventListener('scroll', function () {
+    const nav = document.querySelector('nav');
+    if (window.scrollY > 500) {
+        nav.classList.add('sticky-active');
+    } else {
+        nav.classList.remove('sticky-active');
+    }
 });
