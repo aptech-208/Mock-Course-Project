@@ -16,7 +16,7 @@ navItems.forEach(item => {
 
 window.addEventListener('scroll', function () {
     const nav = document.querySelector('nav');
-    if (window.scrollY > 500) {
+    if (window.scrollY > 300) {
         nav.classList.add('sticky-active');
     } else {
         nav.classList.remove('sticky-active');
