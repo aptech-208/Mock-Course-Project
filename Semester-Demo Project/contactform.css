@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.for-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 100px;
+}
+
+.main-div {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+              url('./Media/hendrik-cornelissen--qrcOR33ErA-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+  color: white;
+  font-family: 'poppins', sans-serif;
+}
+
+.I-line h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.II-line {
+  font-size: 15px;
+}
+
+.II-line a {
+  color: white;
+  text-decoration: none;
+}
+
+.II-line a:hover {
+  color: gray;
+}
+
+.II-line span {
+  margin: 0 10px;
+}
+
+.for-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 100px;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.for-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 100px;
+}
+
+.inputs{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    outline: 0;
+    color: black;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    cursor: text;
+    transition: 0.2s;
+}
+
+button{
+    padding: 10px;
+    outline: 0;
+    border: 1px solid lightgray;
+    width: 100%;
+    cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .inputs{
+    flex-basis: 48%;
+}

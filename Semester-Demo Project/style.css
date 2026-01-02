@@ -259,7 +259,7 @@ nav .nav-links li a i {
     transform: translateY(0);
 }
 
-/* Dropdown Links Style */
+/* Dropdown */
 .dropdown-menu li {
     width: 100%;
     /* border-bottom: 1px solid #f0f0f0; */
@@ -267,7 +267,6 @@ nav .nav-links li a i {
 
 .dropdown-menu li a {
     color: #333 !important;
-    /* Overriding white text from nav */
     padding: 12px 20px !important;
     display: block !important;
     font-size: 14px !important;
@@ -277,23 +276,6 @@ nav .nav-links li a i {
 .dropdown-menu li a:hover {
     background-color: #f8f8f8;
     color: var(--Color) !important;
-}
-
-/* Mobile Adjustment (Optional) */
-@media screen and (max-width: 768px) {
-    .dropdown-menu {
-        position: static;
-        opacity: 1;
-        visibility: visible;
-        display: none;
-        /* Toggle this with JS if you want accordion style on mobile */
-        background-color: rgba(0, 0, 0, 0.05);
-        transform: none;
-    }
-
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }
 }
 
 /* Body */
@@ -337,6 +319,22 @@ nav .nav-links li a i {
 .body-content .card-item img {
     width: 100%;
     height: auto;
+}
+
+/* Response */
+@media screen and (max-width: 768px) {
+    .dropdown-menu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.05);
+        transform: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
 }
 
 /* Responsive Design */
