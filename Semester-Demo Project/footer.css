@@ -10,7 +10,7 @@
     --themecolor: #c44f15;
 }
 
-#footer {
+#footer-r {
     background-color: var(--themecolor);
     /* border: 3px solid var(--themecolor); */
     display: flex;
@@ -24,45 +24,56 @@
     list-style: none;
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
     font-size: medium;
 }
 
-.foot li {
-    cursor: pointer;
-}
-
-.foot li:hover {
-    text-decoration: underline;
-}
-
-img {
+#footer-r > .image > img {
+    margin-left: 15px;
+    margin-top: 30px;
     background-color: white;
     border-radius: 50px;
     width: 200px;
-    /* height: 150px; */
+    align-items: center;
 }
 
 
-.foot ul {
+.foot-r li {
+    cursor: pointer;
+    font-size: smaller;
+    padding-top: 1px;
+    text-align: start;
+}
+
+.foot-r li:hover {
+    text-decoration: underline;
+}
+
+
+h4{
+    text-align: start;
+}
+
+.foot-r ul {
     list-style-type: none;
     line-height: 2.5;
 
 }
 
-.MailingList {
+.MailingList-r {
     display: block;
     padding-top: 10px;
     align-items: center;
+    font-size: small;
 }
 
-#email {
+.email-r {
     padding: 10px;
     border: none;
     margin-top: 10px;
+    width: fit-content;
 }
 
-#btn-email {
+.btnemailr {
     padding: 10px;
     border: none;
     background-color: black;
