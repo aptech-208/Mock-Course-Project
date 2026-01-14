@@ -1,0 +1,85 @@
+{
+  "country": "Pakistan",
+  "national_parks": [
+    {
+      "id": 1,
+      "name": "Hingol National Park",
+      "province": "Balochistan",
+      "area_sq_km": 6100,
+      "established_year": 1988,
+      "famous_for": ["Mud volcanoes", "Makran coast", "Princess of Hope rock formation"]
+    },
+    {
+      "id": 2,
+      "name": "Khunjerab National Park",
+      "province": "Gilgit-Baltistan",
+      "area_sq_km": 2270,
+      "established_year": 1975,
+      "famous_for": ["Snow leopards", "Khunjerab Pass", "High-altitude wildlife"]
+    },
+    {
+      "id": 3,
+      "name": "Deosai National Park",
+      "province": "Gilgit-Baltistan",
+      "area_sq_km": 3000,
+      "established_year": 1993,
+      "famous_for": ["Deosai Plains", "Himalayan brown bears", "Alpine flora"]
+    },
+    {
+      "id": 4,
+      "name": "Chitral Gol National Park",
+      "province": "Khyber Pakhtunkhwa",
+      "area_sq_km": 77,
+      "established_year": 1984,
+      "famous_for": ["Markhor", "Mountain scenery", "Chitral Valley"]
+    },
+    {
+      "id": 5,
+      "name": "Ayubia National Park",
+      "province": "Khyber Pakhtunkhwa",
+      "area_sq_km": 33,
+      "established_year": 1984,
+      "famous_for": ["Pine forests", "Hiking trails", "Chairlifts"]
+    },
+    {
+      "id": 6,
+      "name": "Margalla Hills National Park",
+      "province": "Islamabad Capital Territory",
+      "area_sq_km": 159,
+      "established_year": 1980,
+      "famous_for": ["Hiking trails", "Bird watching", "View of Islamabad"]
+    },
+    {
+      "id": 7,
+      "name": "Lal Suhanra National Park",
+      "province": "Punjab",
+      "area_sq_km": 650,
+      "established_year": 1972,
+      "famous_for": ["Desert ecosystem", "Wetlands", "Wildlife conservation"]
+    },
+    {
+      "id": 8,
+      "name": "Kirthar National Park",
+      "province": "Sindh",
+      "area_sq_km": 3087,
+      "established_year": 1974,
+      "famous_for": ["Rocky landscape", "Sindh ibex", "Historic sites"]
+    },
+    {
+      "id": 9,
+      "name": "Hazarganji-Chiltan National Park",
+      "province": "Balochistan",
+      "area_sq_km": 325,
+      "established_year": 1980,
+      "famous_for": ["Chiltan wild goats", "Mountain terrain"]
+    },
+    {
+      "id": 10,
+      "name": "Saiful Muluk National Park",
+      "province": "Khyber Pakhtunkhwa",
+      "area_sq_km": 518,
+      "established_year": 2003,
+      "famous_for": ["Saiful Muluk Lake", "Glacial scenery", "Tourism"]
+    }
+  ]
+}

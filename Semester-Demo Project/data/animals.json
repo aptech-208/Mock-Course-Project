@@ -1,0 +1,85 @@
+{
+  "country": "Pakistan",
+  "animals": [
+    {
+      "id": 1,
+      "name": "Snow Leopard",
+      "scientific_name": "Panthera uncia",
+      "status": "Vulnerable",
+      "type": "Mammal",
+      "found_in_parks": ["Khunjerab National Park", "Deosai National Park"]
+    },
+    {
+      "id": 2,
+      "name": "Himalayan Brown Bear",
+      "scientific_name": "Ursus arctos isabellinus",
+      "status": "Critically Endangered",
+      "type": "Mammal",
+      "found_in_parks": ["Deosai National Park"]
+    },
+    {
+      "id": 3,
+      "name": "Markhor",
+      "scientific_name": "Capra falconeri",
+      "status": "Near Threatened",
+      "type": "Mammal",
+      "found_in_parks": ["Chitral Gol National Park", "Kirthar National Park"]
+    },
+    {
+      "id": 4,
+      "name": "Sindh Ibex",
+      "scientific_name": "Capra aegagrus blythi",
+      "status": "Least Concern",
+      "type": "Mammal",
+      "found_in_parks": ["Kirthar National Park"]
+    },
+    {
+      "id": 5,
+      "name": "Chiltan Wild Goat",
+      "scientific_name": "Capra aegagrus chialtanensis",
+      "status": "Rare",
+      "type": "Mammal",
+      "found_in_parks": ["Hazarganji-Chiltan National Park"]
+    },
+    {
+      "id": 6,
+      "name": "Indian Pangolin",
+      "scientific_name": "Manis crassicaudata",
+      "status": "Endangered",
+      "type": "Mammal",
+      "found_in_parks": ["Margalla Hills National Park", "Lal Suhanra National Park"]
+    },
+    {
+      "id": 7,
+      "name": "Mugger Crocodile",
+      "scientific_name": "Crocodylus palustris",
+      "status": "Vulnerable",
+      "type": "Reptile",
+      "found_in_parks": ["Hingol National Park"]
+    },
+    {
+      "id": 8,
+      "name": "Houbara Bustard",
+      "scientific_name": "Chlamydotis macqueenii",
+      "status": "Vulnerable",
+      "type": "Bird",
+      "found_in_parks": ["Lal Suhanra National Park", "Hingol National Park"]
+    },
+    {
+      "id": 9,
+      "name": "Golden Eagle",
+      "scientific_name": "Aquila chrysaetos",
+      "status": "Least Concern",
+      "type": "Bird",
+      "found_in_parks": ["Khunjerab National Park", "Deosai National Park"]
+    },
+    {
+      "id": 10,
+      "name": "Himalayan Monal",
+      "scientific_name": "Lophophorus impejanus",
+      "status": "Least Concern",
+      "type": "Bird",
+      "found_in_parks": ["Ayubia National Park", "Saiful Muluk National Park"]
+    }
+  ]
+}
