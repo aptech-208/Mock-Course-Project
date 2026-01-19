@@ -5,125 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eco-Link</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./card.css">
+    <link rel="stylesheet" href="./style2.css">
 </head>
 
 <body>
 
-    <!-- Header Top Bar -->
-    <div class="header-top">
-
-        <div class="social-links">
-
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-
-        </div>
-
-        <div class="header-info">
-
-            <a href="mailto:booking@nationaltourism.pk" class="contact-email">booking@nationaltourism.pk</a>
-
-            <span class="contact-phone">
-                <i class="fas fa-phone"></i>
-                +923 325 686 349
-            </span>
-
-            <div class="auth-links">
-                <i class="far fa-user"></i>
-                <a href="#">Sign in</a> or <a href="#">Register</a>
-            </div>
-
-        </div>
-
-    </div>
-
-    <!-- Navigation -->
-    <nav>
-
-        <div class="nav-container">
-
-            <div class="logo">
-                <img src="./Media/logo1.png" alt="Eco-Link Logo">
-            </div>
-
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-
-        </div>
-
-        <ul class="nav-links" id="navLinks">
-
-            <li><a href="./index.html">HOME</a></li>
-
-            <li><a href="./visit.html">PLAN YOUR VISIT</a></li>
-
-            <li class=" dropdown">
-                <a href="#list">TODO LIST <i class="fas fa-chevron-down"></i></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#"><img src="./Media/todo.png" alt=""></a></li>
-                    <li><a href="#"><img src="./Media/todo1.png" alt=""></a></li>
-                    <li><a href="#"><img src="./Media/todo.png" alt=""></a></li>
-                    <li><a href="#"><img src="./Media/todo1.png" alt=""></a></li>
-                </ul>
-            </li>
-
-            <li class="dropdown">
-                <a href="#lore">LORE <i class="fas fa-chevron-down"></i></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">History About Deosai</a></li>
-                    <li><a href="#">History About Khunjerab</a></li>
-                    <li><a href="#">History About Hingol</a></li>
-                    <li><a href="#">History About Chitral</a></li>
-                    <li><a href="#">History About Margalla-Hills</a></li>
-                </ul>
-            </li>
-
-            <li class="dropdown">
-                <a href="#mapsite">MAP SITE <i class="fas fa-chevron-down"></i></a>
-                <ul class="dropdown-menu">
-                    <li><a href="https://visitgilgitbaltistan.gov.pk/categories/posts/1/2" target="_blank">Deosai
-                            National Park</a></li>
-                    <li><a href="https://www.visitgilgitbaltistan.gov.pk/tour/id/48" target="_blank">Khunjerab Pass
-                            National Park</a></li>
-                    <li><a href="https://www.salampakistan.gov.pk/where-to-go/category/balochistan/location/hingol-national-park"
-                            target="_blank">Hingol National Park</a></li>
-                    <li><a href="https://www.salampakistan.gov.pk/where-to-go/category/chitral-gol-national-park/location/chitral-gol-national-park"
-                            target="_blank">Chitral National Park</a></li>
-                    <li><a href="https://www.salampakistan.gov.pk/where-to-go/category/margalla-hills/location/margalla-hills"
-                            target="_blank">Margalla Hills National Park</a></li>
-                </ul>
-            </li>
-
-            <li><a href="#alert">ALERT</a></li>
-
-            <li><a href="./contactform.html">CONTACT US</a></li>
-
+    <nav class="navbar">
+        <div class="logo">ECO-LINK</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#tours">Destinations</a></li>
+            <li><a href="contactform.html">Contact</a></li>
+            <li><a href="login.html" class="login-btn">Login</a></li>
         </ul>
-
-        <div class="contributor-section">
-
-            <ul>
-                <li><a href="#">HAVE A SAFE JOURNEY</a></li>
-            </ul>
-
-        </div>
-
     </nav>
 
-    <!-- Title -->
-    <div class="nav-title">
-
-        <h2>National Park</h2>
-
-    </div>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Nature is Calling</h1>
+            <p>Experience the untouched beauty of our National Parks.</p>
+            <a href="#tours" class="cta-button">Explore Now</a>
+        </div>
+    </header>
 
     <!-- body -->
     <div class="body-content">
@@ -167,7 +74,6 @@
 
         <!-- Cards Section -->
         <section class="interest-section">
-            <input type="text">
             <div class="card-container">
 
                 <div class="card">
@@ -268,68 +174,53 @@
     </div>
 
     <!-- Footer -->
-    <div id="footer-r">
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">ECO-LINK</div>
+                <p>Connecting explorers with the heart of nature since 2024. We specialize in sustainable tourism and
+                    national park conservation.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
 
-        <div class="image">
-
-            <img src="./Media/logo1.png" alt="logo">
-
+            <div class="footer-links-grid">
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#">Tours</a></li>
+                        <li><a href="#">Parks</a></li>
+                        <li><a href="#">Wildlife</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Newsletter</h4>
+                    <p>Stay updated with new park openings.</p>
+                    <form class="footer-subscribe">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
         </div>
-
-        <!-- <div class="footer-links"> -->
-        <div class="foot-r">
-
-            <h4>Company</h4>
-            <ul>
-                <li>About Us</li>
-                <li>Careers</li>
-                <li>PrivacyStatement</li>
-                <li>Terms of Use</li>
-                <li>Give Us Feedbacks</li>
-            </ul>
-
+        <div class="footer-bottom">
+            <p>&copy; 2026 Eco-Link National Parks. All Rights Reserved.</p>
         </div>
+    </footer>
 
-        <div class="foot-r">
-
-            <h4>Zi Soft Tech</h4>
-            <ul>
-                <li>Web Development</li>
-                <li>Soft Dev</li>
-                <li>HostingZi</li>
-                <li>Digital Smart Cards</li>
-                <li>Travelzi CRM</li>
-            </ul>
-
-        </div>
-
-        <div class="foot-r">
-
-            <h4>Support</h4>
-            <ul>
-                <li>Account</li>
-                <li>Legal</li>
-                <li>Contact</li>
-                <li>Affiliate Program</li>
-                <li>Privacy Policy</li>
-            </ul>
-
-        </div>
-        <!-- </div> -->
-
-        <div>
-
-            <p class="MailingList-r">Mailing List</p>
-            <p class="MailingList-r">Sign up for our mailing list to get latestnd offers.</p>
-            <br>
-            <input type="email" placeholder="Enter your email" class="email-r">
-            <button type="submit" class="btnemailr">Subscribe</button>
-
-        </div>
-
-    </div>
-
-    <script src="./js/main.js"></script>
+    <script src="./main.js"></script>
+    <script src="./card.js"></script>
 
 </body>
 

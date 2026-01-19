@@ -1,0 +1,188 @@
+/* Root Variables from Login Theme */
+:root {
+    --primary-green: #4a6741;
+    --accent-brown: #a67c52;
+    --glass-bg: rgba(255, 255, 255, 0.1);
+    --dark-overlay: rgba(0, 0, 0, 0.4);
+    --text-light: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f4;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.login-btn {
+    background: var(--accent-brown);
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+/* Hero Section (Matching Login Image) */
+.hero {
+    height: 80vh;
+    background: linear-gradient(var(--dark-overlay), var(--dark-overlay)),
+        url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 35px;
+    background: var(--primary-green);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+:root {
+    --primary: #4a6741;
+    /* Forest Green */
+    --accent: #a67c52;
+    /* Earth Brown */
+    --dark: #1a2a15;
+    /* Deep Forest */
+    --light: #f4f7f4;
+    /* Off-white */
+    --glass: rgba(255, 255, 255, 0.1);
+}
+
+body {
+    background-color: var(--light);
+}
+
+/* --- NAVBAR REMAKE --- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent);
+}
+
+.logo {
+    color: white;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: var(--accent);
+}
+
+.login-btn {
+    background: var(--accent);
+    padding: 10px 25px !important;
+    border-radius: 50px;
+    transition: 0.3s !important;
+}
+
+.login-btn:hover {
+    background: white !important;
+    color: var(--dark) !important;
+}
+
+/* --- HERO SECTION --- */
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cta-button {
+    text-decoration: none;
+    padding: 15px 40px;
+    background: var(--primary);
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+}
